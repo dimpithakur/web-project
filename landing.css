@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 30px;
+}
+
+.hero {
+    background: #3498db;
+    color: white;
+    padding: 50px;
+}
+
+.hero h2 {
+    font-size: 30px;
+}
+
+.hero p {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background: white;
+    color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ddd;
+}
+
+.features {
+    padding: 40px;
+}
+
+.box {
+    background: #f4f4f4;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    padding: 15px;
+}

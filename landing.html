@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Landing Page</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Navbar */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      background: #0a3d62;
+      color: white;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Hero Section */
+    .hero {
+      height: 90vh;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      margin-bottom: 20px;
+    }
+
+    .hero button {
+      padding: 10px 20px;
+      border: none;
+      background: white;
+      color: #0072ff;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .hero button:hover {
+      background: #eee;
+    }
+
+    /* Section */
+    section {
+      padding: 60px;
+      text-align: center;
+    }
+
+    .services {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+
+    .box {
+      width: 30%;
+      padding: 20px;
+      background: #f1f1f1;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .box:hover {
+      transform: translateY(-10px);
+      background: #e0f7ff;
+    }
+
+    /* Footer */
+    footer {
+      background: #0a3d62;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <h2>My Website</h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Why Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero" id="home">
+    <h1>Welcome to My Website</h1>
+    <p>Build your future with web development</p>
+
+    <a href="#services">
+      <button>Get Started</button>
+    </a>
+  </div>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Why Choose Us?</h2>
+    <p>We provide simple and effective web solutions</p>
+
+    <div class="services">
+      <div class="box">
+        <h3>Easy Design</h3>
+        <p>Clean and simple layouts</p>
+      </div>
+
+      <div class="box">
+        <h3>Responsive</h3>
+        <p>Works on mobile and desktop</p>
+      </div>
+
+      <div class="box">
+        <h3>Fast</h3>
+        <p>Optimized performance</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: 
+      <a href="mailto:dimpithakur1616@gmail.com">
+        dimpithakur1616@gmail.com
+      </a>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 My Website | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>

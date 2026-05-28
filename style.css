@@ -1,0 +1,111 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+    color: white;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    text-align: center;  /* default center */
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* About */
+.about img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Headings */
+h2 {
+    font-size: 28px;
+}
+
+/* Text */
+p {
+    font-size: 18px;
+}
+
+/* Skills */
+.skills p {
+    margin: 8px 0;
+}
+
+/* Projects heading left */
+.projects {
+    text-align: center;
+}
+
+/* Container block (ek ke niche) */
+.projects .container {
+    display: block;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 25px;
+    width: 280px;
+    margin: 20px auto;  /* center */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+
+/* Buttons */
+.btn, .card a {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 20px;
+    background: #2193b0;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover, .card a:hover {
+    background: #17607a;
+}
+
+/* Links */
+a {
+    color: #2193b0;
+}
+
+/* Footer */
+footer {
+    background: #17607a;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
