@@ -25,7 +25,7 @@ header p {
 
 section {
     padding: 60px 20px;
-    text-align: center;  
+    text-align: center;  /* default center */
 }
 
 .container {
@@ -64,7 +64,7 @@ p {
     background: white;
     padding: 25px;
     width: 280px;
-    margin: 20px auto;  
+    margin: 20px auto;  /* center */
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
     text-align: center;
