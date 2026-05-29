@@ -38,6 +38,5 @@ https://github.com/dimpithakur/web-project
 
 ## Contact
 - Email: dimpithakur1616@gmail.com  
-- Phone: 7263807141
 
 © 2026 Dimpi Thakur
