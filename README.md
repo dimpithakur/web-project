@@ -13,8 +13,6 @@ I build user-friendly and responsive websites using HTML, CSS, and JavaScript.
 - Skills Section
 - Projects Showcase
 - Resume View Option
-- Landing Page
-- Calculator Functionality
 - Contact Information Section
 - Fully Responsive Design
 
