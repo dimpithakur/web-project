@@ -32,7 +32,7 @@ I build user-friendly and responsive websites using HTML, CSS, and JavaScript.
  https://dimpithakur.github.io/portfolio-task-1/
 
 ##  GitHub Repository
-https://github.com/dimpithakur/web-project
+https://github.com/dimpithakur/portfolio-task-1
 
 ## Contact
 - Email: dimpithakur1616@gmail.com  
