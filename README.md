@@ -29,7 +29,7 @@ I build user-friendly and responsive websites using HTML, CSS, and JavaScript.
 - JavaScript
 
 ## Live Website
-https://dimpithakur.github.io/web-project/
+ https://dimpithakur.github.io/portfolio-task-1/
 
 ##  GitHub Repository
 https://github.com/dimpithakur/web-project
