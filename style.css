@@ -10,7 +10,7 @@ body {
 
 header {
     text-align: center;
-    padding: 100px 20px;
+    padding: 40px 30px;
     background: linear-gradient(to right, #2193b0, #6dd5ed);
     color: white;
 }
@@ -24,8 +24,8 @@ header p {
 }
 
 section {
-    padding: 60px 20px;
-    text-align: center; 
+    padding: 10px 20px;
+    text-align: center;
 }
 
 .container {
